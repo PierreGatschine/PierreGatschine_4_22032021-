@@ -1,0 +1,5 @@
+#fichier robot.txt pour le site https://pierregatschine.github.io/PierreGatschine_4_22032021-/
+
+User-agent: *
+Disallow: /fonts/
+Disallow: /includes/
