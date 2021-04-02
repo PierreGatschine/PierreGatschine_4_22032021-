@@ -10,6 +10,7 @@
     />
 
     <title>La Chouette Agence | Webdesign | Lyon</title>
+
     <meta
       name="description"
       content="Une Agence Web, pour optimiser votre Site Internet et vous assurer une visibilité maximale. Agence Web experte en conception de site Internet e-commerce, pour Booster votre Activité. Refonte de site Web. Référencement SEO / SEA. Création graphique. Réalisation technique."
@@ -48,6 +49,12 @@
 
     <!-- liens -->
     <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg" />
+
+    <link
+      rel="canonical"
+      href="https://pierregatschine.github.io/PierreGatschine_4_22032021-/"
+    />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
     <link
       async
       rel="stylesheet"
@@ -60,13 +67,28 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="style.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="style.min.css" /> -->
     <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
 
     <title>La Chouette Agence | Webdesign | Lyon</title>
 
     <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WW5S4TSS7S"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-WW5S4TSS7S");
+    </script>
     <!-- Analytics END -->
   </head>
   <body>
@@ -125,7 +147,7 @@
               <h1 class="text-center hero-bloc-text tc-white">
                 La Chouette Agence
               </h1>
-              <p>Agence de Webdesign sur Lyon</p>
+              <!-- <p>Agence de Webdesign sur Lyon</p> -->
               <div class="text-center">
                 <a
                   href="./contact.html"
@@ -133,7 +155,7 @@
                   id="cta-hero"
                   role="button"
                   aria-pressed="false"
-                  >Contactez notre équipe sur Lyon</a
+                  >Contactez notre équipe</a
                 >
               </div>
             </div>
@@ -147,11 +169,11 @@
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <p>
+              <h2>
                 La chouette agence est une agence de webdesign qui aide les
                 entreprises à devenir <strong>attractives</strong> et
                 <strong>visibles</strong> sur Internet.
-              </p>
+              </h2>
             </div>
           </div>
           <div class="row voffset-lg med-width-whitespace">
@@ -361,11 +383,6 @@
               Prêt pour redonner vie à votre projet ?
             </h2>
             <div class="col-sm-12 text-center">
-              <!-- <a
-                href="page2.html"
-                class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
-                >Contact</a
-              > -->
               <a
                 href="contact.html"
                 class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
@@ -377,6 +394,17 @@
       </div>
       <!-- bloc-5-cta END -->
 
+      <!-- ScrollToTop Button -->
+      <a
+        class="bloc-button btn btn-d scrollToTop"
+        onclick="scrollToTarget('1')"
+        role="button"
+      >
+        <span
+          class="fa fa-chevron-up"
+          title="retourner vers le haut de la page"
+        ></span>
+      </a>
       <!-- Footer - bloc-8 -->
       <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
@@ -474,12 +502,18 @@
       <!-- Footer - bloc-8 END -->
     </div>
     <!-- Principal conteneur END -->
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
       crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://code.jquery.com/jquery-2.1.0.min.js"
+      integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0="
+      crossorigin="anonymous"
     ></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
     <script src="./js/blocs.min.js"></script>
     <script src="./js/gmaps.min.js"></script>
     <script defer src="./js/jquery.touchSwipe.min.js"></script>
